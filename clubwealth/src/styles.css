@@ -1,0 +1,30 @@
+.App {
+  max-width: 100%;
+
+}
+
+.navbar{
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  position: static;
+}
+
+.navbar >li {
+  list-style: none;
+  padding: 1em;
+}
+
+.home_content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2em;
+  padding: 4em;
+}
+.window {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  margin: 1em;
+}

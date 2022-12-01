@@ -1,0 +1,59 @@
+.cat_wrapper {
+  background-color: bisque;
+}
+.cat_title_bar{
+    display: flex;
+    justify-content: space-around;
+}
+.switch_board{
+    margin: 2em;
+    align-self: center;
+    height: 2em;
+    font-size: small;
+    font-weight: 700;
+    border: none;
+    background: none;
+}
+.switch_board:hover{
+    cursor: pointer;
+    transform:scale(1.5)
+}
+
+
+.card_group {
+  display: flex;
+  align-items: space-around;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.cat_card {
+  background-color: aliceblue;
+  margin: 1%;
+  display: block;
+  height: auto;
+  max-height: 30%;
+  width: auto;
+  max-width: 30%;
+  border: black solid 1px;
+}
+.cat_title {
+  width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.cat_content {
+  height: auto;
+  width: auto;
+}
+
+.cat_img {
+  height: auto;
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+}
+.add_button {
+  font-size: large;
+  font-weight: 700;
+}

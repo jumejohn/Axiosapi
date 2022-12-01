@@ -1,0 +1,145 @@
+
+.pagination_group{
+    margin-top: 1em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .pagination_group> button{
+    background-color: white;
+    margin: 1px;
+    padding: 3px;
+    border-left: .5px solid black;
+    border-right: .5px solid black;
+    border-bottom: .5px solid black;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    text-decoration: double;
+  }
+
+  .pagination_group> button:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+  }
+  .list_title {
+    padding: 1em;
+    margin: auto;
+  }
+  .card {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 20em;
+    border: 1px black solid;
+    border-radius: 4px;
+  }
+
+  .card_header{
+    display: flex;
+    justify-content: space-between;
+  }
+  .card_title {
+    width: 100%;
+    padding: 1em;
+    border: none;
+    font-size: small;
+    font-weight: 700;
+  }
+  .card_title:hover {
+    cursor: pointer;
+    border: .5px solid black;
+    border-radius: 4px;
+    transform: scale(1.1);
+  }
+
+  .delete_button {
+    border: none;
+    font-weight: 800;
+  }
+  .delete_button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  .close_button {
+    background: none;
+    border-radius: 50px;
+    font-size: medium;
+    font-weight: 800;
+  }
+  .list_panel {
+    max-width: 35%;
+    align-items: center;
+    border: 1px black solid;
+    box-shadow: inset 2px 2px lightslategray;
+    border-radius: 4px;
+  }
+  .side_panel {
+    max-width: 30%;
+    position: relative;
+  }
+
+  .info_card {
+    width: 100%;
+    padding: 2em;
+    box-shadow: inset 2px 2px lightslategray;
+    border: 1px black solid;
+    border-radius: 4px;
+  }
+
+  .dont_look_like_a_button {
+    background: none;
+    margin: 1em;
+    border: none;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .side_panel2{
+    max-width: 35%;
+    position: relative;
+  }
+
+  .content_card{
+    width: 100%;
+    padding: 1em;
+    border: none;
+    background: white;
+  }
+  .back_button{
+    margin: 1em;
+    background: none;
+    border-radius: 50px;
+    font-size: medium;
+    font-weight: 800;
+  }
+  .opening_title{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: large;
+  }
+  .opening_crawl{
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px lightslategray;
+    display: flex;
+    padding: 3em;
+    word-spacing: .01em;
+    letter-spacing: .01em;
+    text-align: center;
+  }
+
+  .search_bar{
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
